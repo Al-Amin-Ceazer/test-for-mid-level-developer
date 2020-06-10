@@ -64,7 +64,7 @@
         </pre>
         4. Give examples of: &emsp;<a target="_blank" href="{{url('sort-js')}}">sort-js</a> (array sort) &emsp;<a target="_blank" href="{{url('foreach-js')}}">sort-js</a> (foreach)
         &emsp;<a target="_blank" href="{{url('filter-js')}}">filter-js</a> (array filter) &emsp;<a target="_blank" href="{{url('map-js')}}">map-js</a> (array map) &emsp;<a target="_blank" href="{{url('reduce-js')}}">reduce-js</a> (array reduce)
-        <br/><br/>5. <a target="_blank" href="{{url('animation')}}">animation</a>. Animate a box from the top-left edge of window to the bottom-right edge of window, which will return by the same way from the edge.
+        <br/><br/>5. <a target="_blank" href="{{url('animation')}}">animation</a>. Animate a box from the top-left edge of window to the bottom-right edge of window, which will return by the same way from the edge. (use js)
         <br/><br/>6. <a target="_blank" href="{{url('i-m-funny')}}">i-m-funny</a>. Enlisted the answers.
         <br/>&emsp;&emsp;6a. What do you think about the current condition of software development in bangladesh and how this differ from the other developed countries?
         <br/>&emsp;&emsp;&emsp;&emsp;Also put a comment how we can improve ourselves as a giant digital developed nation in this field?
