@@ -66,13 +66,13 @@ class HomeController extends Controller
                     ON pt.buyer_id = buyers.id
                 ORDER BY total_item") );
 
-        //dd($buyers);
         return view('purchase-list', compact('buyers'));
     }
 
     public function recordTransfer()
     {
-        $jsonData = File::get(storage_path('app\public\records1.json'));
+        dd('Not done yet, json_decode huge json file problem. need more time !');
+        $jsonData = File::get(storage_path('app\public\records.json'));
         $jsonData = json_decode($jsonData);
         $records = $jsonData->RECORDS;
         //dd($records);
@@ -97,8 +97,8 @@ class HomeController extends Controller
             ];
         }
 
-        $chunks = array_chunk($data, 10);
-        dd($chunks);
+        $chunks = array_chunk($data, 5000);
+        //dd($chunks);
 
         foreach ($chunks as $chunk) {
             Record::insert($data);

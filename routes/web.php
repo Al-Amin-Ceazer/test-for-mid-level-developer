@@ -46,3 +46,7 @@ Route::get('/map-js', function () {
 Route::get('/reduce-js', function () {
     return view('reduce');
 });
+
+Route::get('/i-m-funny', function () {
+    return view('funny');
+});
